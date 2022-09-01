@@ -1,5 +1,5 @@
 {% set name = "bleak" %}
-{% set version = "0.15.1" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bleak-{{ version }}.tar.gz
-  sha256: d8c8d88de0f22a15bd135ba056c4e5b2fb9f15119283def21b1ed7d43c00d590
+  sha256: a549f43e3c5d8de464c72b4b905534c3f4781746e9815ecd531b7255de2e19c7
 
 build:
   entry_points:
     - bleak-lescan=bleak:cli
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
   # Mac Os X is currently not working as - pyobjc-framework-libdispatch is missing on conda-forge
   skip: true  # [osx]
 
