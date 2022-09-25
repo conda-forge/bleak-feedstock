@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python
+    - poetry
   run:
     - bleak-winrt >=1.1.1  # [win]
     - dbus-next  # [linux]
