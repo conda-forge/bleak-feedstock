@@ -1,11 +1,11 @@
-About bleak
-===========
+About bleak-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bleak-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hbldh/bleak
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bleak-feedstock/blob/main/LICENSE.txt)
 
 Summary: Bluetooth Low Energy platform Agnostic Klient
 
@@ -212,4 +212,5 @@ Feedstock Maintainers
 =====================
 
 * [@jan-janssen](https://github.com/jan-janssen/)
+* [@tdido](https://github.com/tdido/)
 
