@@ -24,7 +24,7 @@ requirements:
     - poetry-core >=1.0.0
   run:
     - bleak-winrt >=1.1.1  # [win]
-    - dbus-next  # [linux]
+    - dbus-fast  # [linux]
     - pyobjc-core  # [osx]
     - pyobjc-framework-corebluetooth  # [osx]
     - pyobjc-framework-libdispatch  # [osx]
