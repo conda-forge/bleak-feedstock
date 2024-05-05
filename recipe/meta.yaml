@@ -1,5 +1,5 @@
 {% set name = "bleak" %}
-{% set version = "0.21.1" %}
+{% set version = "0.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bleak-{{ version }}.tar.gz
-  sha256: ec4a1a2772fb315b992cbaa1153070c7e26968a52b0e2727035f443a1af5c18f
+  sha256: 8439f5a34ecba350485a64c9bf6be5a66fb58f2b1dc597b61f224f6635ffad99
 
 build:
   entry_points:
