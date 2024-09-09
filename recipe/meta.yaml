@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python <3.13,>=3.8
     - poetry-core >=1.0.0
   run:
     - bleak-winrt >=1.1.1  # [win]
@@ -28,7 +28,7 @@ requirements:
     - pyobjc-core  # [osx]
     - pyobjc-framework-corebluetooth  # [osx]
     - pyobjc-framework-libdispatch  # [osx]
-    - python
+    - python <3.13,>=3.8
     - typing-extensions >=4.2.0
     - async-timeout
 
