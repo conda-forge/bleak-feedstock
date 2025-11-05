@@ -37,6 +37,7 @@ test:
     - bleak
   commands:
     - bleak-lescan --help
+    - pip check  # [not win]
   requires:
     - pip
 
