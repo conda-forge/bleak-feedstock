@@ -227,5 +227,4 @@ Feedstock Maintainers
 
 * [@carlodri](https://github.com/carlodri/)
 * [@jan-janssen](https://github.com/jan-janssen/)
-* [@tdido](https://github.com/tdido/)
 
