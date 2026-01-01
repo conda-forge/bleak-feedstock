@@ -10,8 +10,6 @@ source:
   sha256: 4600cc5852f2392ce886547e127623f188e689489c5946d422172adf80635cf9
 
 build:
-  entry_points:
-    - bleak-lescan=bleak:cli
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
   # Mac Os X is currently not working as - pyobjc-framework-libdispatch is missing on conda-forge
@@ -36,7 +34,6 @@ test:
   imports:
     - bleak
   commands:
-    - bleak-lescan --help
     - pip check  # [not win]
   requires:
     - pip
