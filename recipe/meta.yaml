@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python
-    - poetry-core >=1.0.0
+    - uv-build
   run:
     - bleak-winrt >=1.1.1  # [win]
     - dbus-fast  # [linux]
