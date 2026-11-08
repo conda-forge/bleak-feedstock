@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bleak
-  version: "3.0.2"
+  version: "3.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,11 +10,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bleak-${{ version }}.tar.gz
-  sha256: c2229cb8238d5876b4bd05c74bf7a1aea1f88da39d2e51ac9dfd5cc319d5265f
+  sha256: e37fd30c4691c908d31c8b92ca55b92a22ab924a77c35579822c859042992145
 
 build:
   # Mac Os X is currently not working as - pyobjc-framework-libdispatch is missing on conda-forge
-  number: 2
+  number: 0
   skip: osx
   script: ${{ PYTHON }} -m pip install . -vv
 
